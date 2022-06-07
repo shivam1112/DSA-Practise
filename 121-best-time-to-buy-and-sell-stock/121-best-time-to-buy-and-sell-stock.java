@@ -14,20 +14,6 @@ class Solution {
                 l=r;
             }
         }
-        // while(l<=prices.length-2){
-        //     if(prices[l]>prices[r]){
-        //         l++;
-        //         r++;
-        //     }
-        //     else if((prices[r]-prices[l])>max){
-        //         max=prices[r]-prices[l];
-        //         r++;
-        //     }
-        //     if(r==prices.length-1){
-        //         l++;
-        //         r=l+1;
-        //     }
-        // }
         return max;
     }
 }
